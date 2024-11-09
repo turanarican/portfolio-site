@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Host Grotesk", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header,
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  width: 100%;
+  font-size: 1.2rem;
+}
+img {
+  width: 30%;
+}
+h1,
+h2,
+h3,
+.cover-title,
+.header-title {
+  text-align: center;
+  margin: 1.2rem;
+  font-size: 2.4rem;
+}
+.header-title,
+.cover-title {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.4rem;
+}
+.cover-description,
+.cover-personal {
+  padding: 1.2rem;
+}
+.certificates-and-portfolio-section {
+  display: flex;
+  margin: 1.2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.certificates-wrapper,
+.portfolio-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1.4rem;
+}
+.certificate,
+.portfolio-links {
+  margin: 1.2rem;
+}
+.certificate-link-span {
+  display: block;
+  font-size: 1rem;
+}
